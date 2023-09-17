@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(248, 245, 245);
+    padding: ;
 }
 
 /* navbar style  */
@@ -26,4 +27,27 @@ a:hover{
     background-color: rgb(240, 210, 210) ;
     padding: 4px;
     border-radius: 5px;
+}
+/* journey-influencer-details and camera  */
+
+.journey-influencer-details{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+.journey-influencer{
+    margin-left: 70px;
+    width: 100%;
+}
+.first-button{
+    background-color:  rgb(236, 60, 60);
+    padding: 9px 15px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+.influencer-img{
+    width: 100%;
+    margin-left: 10%;
 }
